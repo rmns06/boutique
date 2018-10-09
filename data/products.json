@@ -15,5 +15,14 @@
       "price": 675,
       "image": "/image/ipad.jpg",
       "url": "https://adoring-heisenberg-a8c7ac.netlify.com/"
+    },
+    {
+      "id": "",
+      "name": "Cours particulier Surviv.io",
+      "description":
+        "Un entrainement dispensé par des joueurs hors pairs pour devenir une machine a kill.../br Viens donc allimenter la cagnotte",
+      "price": 4,
+      "image": "/image/agar.png",
+      "url": "https://adoring-heisenberg-a8c7ac.netlify.com/"
     }
   ]
