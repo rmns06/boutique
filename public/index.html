@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.48" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> Intégration de Snipcart dans Hugo! </title>
+
+  <link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Ma super boutique</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="snipcart-summary">
+            <a href="#" class="snipcart-checkout">
+              View cart (<span class="snipcart-total-items">0</span>)
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+
+<section class="container">
+    <div class="row">
+        
+            <div class="col s6">
+    <h2 class="header">Iphone12</h2>
+    <div class="card horizontal">
+        <div class="card-image">
+        <img src="/image/iphone7.jpg">
+        </div>
+        <div class="card-stacked">
+        <div class="card-content">
+            <p>Pas mieux que les autres mais beaucoup plus cher</p>
+        </div>
+        <div class="card-action">
+            <button
+                class="snipcart-add-item waves-effect waves-light btn"
+                data-item-id="1"
+                data-item-name="Iphone12"
+                data-item-price="1200"
+                data-item-url="http://snipcart-hugo.netlify.com">
+                    <i class="material-icons right">shopping_cart</i>
+                    Add to cart
+            </button>
+        </div>
+        </div>
+    </div>
+</div>
+        
+            <div class="col s6">
+    <h2 class="header">Ipad 51</h2>
+    <div class="card horizontal">
+        <div class="card-image">
+        <img src="/image/ipad.jpg">
+        </div>
+        <div class="card-stacked">
+        <div class="card-content">
+            <p>Il peut même faire le café</p>
+        </div>
+        <div class="card-action">
+            <button
+                class="snipcart-add-item waves-effect waves-light btn"
+                data-item-id="2"
+                data-item-name="Ipad 51"
+                data-item-price="675"
+                data-item-url="http://snipcart-hugo.netlify.com">
+                    <i class="material-icons right">shopping_cart</i>
+                    Add to cart
+            </button>
+        </div>
+        </div>
+    </div>
+</div>
+        
+    </div>
+</section>
+
+<div class="container">
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                Snipcart integration with Hugo
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" id="snipcart" src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="NDBmMDljNjEtZDQ2MC00NTQ4LWIxOTktYTVhZWNhMjc1NjA0NjM2NzQ2NzAzNjI0MTA4NTA2"></script>
+
+<script>
+    Snipcart.execute('registerLocale', 'en', {
+        powered_by:
+        "HoS 'ej pong ngaQ "
+    });
+</script>
+</body>
+</html>
