@@ -5,7 +5,7 @@
       "price": 1200,
       "image": "/image/iphone7.jpg",
       "description": "Pas mieux que les autres mais beaucoup plus cher",
-      "url": "http://snipcart-hugo.netlify.com"
+      "url": "https://adoring-heisenberg-a8c7ac.netlify.com/#!/"
     },
     {
       "id": "2",
@@ -14,6 +14,6 @@
         "Il peut même faire le café",
       "price": 675,
       "image": "/image/ipad.jpg",
-      "url": "http://snipcart-hugo.netlify.com"
+      "url": "https://adoring-heisenberg-a8c7ac.netlify.com/#!/"
     }
   ]
